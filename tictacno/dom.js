@@ -34,7 +34,7 @@ for(var i = 0; i < eachBox.length; i++) {
 	})
 }
 var resetB = document.querySelector("#resetButton")
-resetB.addEventListener("click", function() {
+resetB.addEventListener("click", function() { //resets board and sets turn back to X.
 	boardRa = ["","","","","","","","",""];
 	turn = "X";
 	for(var i =0; i < eachBox.length; i++) {
@@ -43,6 +43,8 @@ resetB.addEventListener("click", function() {
 		eachBox[i].textContent = "";
 	}
 })
+
+
 
 
 
