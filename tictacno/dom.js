@@ -18,13 +18,14 @@ for(var i = 0; i < eachBox.length; i++) {
 			boardRa[nameIndex] = turn; // boardRa is populated with turn's variable.
 			this.textContent = turn; // set text in each box to turn's variable
 			if (turn === "X") { 
+				this.classList.add("xcolor");
 				turn = "O";
 			} else {
+				this.classList.add("ocolor");
 				turn = "X";
 			}
 			console.log(boardRa);
 		};
-		
 		/*
 			upon click, box knows it was selected, function then asks box to ID itself, when box ID'd, turn = X displays. Then, if X, then turn is O. 
 
@@ -32,4 +33,24 @@ for(var i = 0; i < eachBox.length; i++) {
 		*/
 	})
 }
+var resetB = document.querySelector("#resetButton")
+resetB.addEventListener("click", function() {
+	boardRa = ["","","","","","","","",""];
+	turn = "X";
+	for(var i =0; i < eachBox.length; i++) {
+		eachBox[i].classList.remove("xcolor");
+		eachBox[i].classList.remove("ocolor");
+		eachBox[i].textContent = "";
+	}
+})
+
+
+
+
+
+
+
+
+
+
 

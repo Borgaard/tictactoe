@@ -14,6 +14,8 @@ nav {
     background-color: lightgray;
     border: 1px solid black;
     margin: 3px;
+    font-size: 68pt;
+    text-align: center;
 }
 #row1 {
 	float: left;
@@ -27,64 +29,11 @@ nav {
 	float: left;
 	clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*body {
-	table-layout: auto;
-
-	margin: 10px;
+.xcolor {
+	background-color: #417C81;
+	color: #68979B;
 }
-div {
-	border: 4px solid lightgray;
+.ocolor {
+	background-color: #D49C6A;
+	color: #FFD2AA;
 }
-.row {
-	height: 100px;
-	width: 300px;
-}
-#tleft {
-	border: 1px solid magenta;
-}
-#tcenter {
-	border: 1px solid red;
-}
-#tright {
-	border: 1px solid orange;
-}
-#mleft {
-	border: 2px solid indigo;
-	margin-top: 10px;
-	margin-right: 100px;
-}
-#mcenter {
-	border: 2px solid blue;
-	margin-top: -52px;
-	margin-left: 100px;}
-#mright {
-	border: 2px solid green;
-	margin-top: -52px;
-	margin-left: 200px}
-.button {
-	height: 80px;
-	width: 80px;
-	margin-left: 20px;
-	margin-right: 20px;
-	border: 1px solid black;
-	text-align: center;
-}*/
